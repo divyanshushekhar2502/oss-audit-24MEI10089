@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: divyanshushekhar05-lab (24MEI10089)
+# Author: divyanshushekhar2502 (24MEI10089)
 
 dirs=("/etc" "/var/log" "/usr/bin" "/usr/lib" "/var/www" "/home" "/root" "/usr/local/lib/python3" "/usr/lib/python3")
 

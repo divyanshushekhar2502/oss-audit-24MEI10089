@@ -6,7 +6,7 @@ This document contains simulated terminal outputs for the 5 audit scripts.
 
 ## 1. System Identity Report (`01-identify.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./01-identify.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./01-identify.sh
 ================================================================================
                    Python AUDIT - SYSTEM IDENTITY                    
 ================================================================================
@@ -25,7 +25,7 @@ Message: This system runs on Open Source software, providing freedom to study, c
 
 ## 2. FOSS Package Inspector (`02-packages.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./02-packages.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./02-packages.sh
 ================================================================================
                    Python AUDIT - PACKAGE INSPECTOR                 
 ================================================================================
@@ -44,7 +44,7 @@ FOSS Philosophy Notes:
 
 ## 3. Disk and Permission Auditor (`03-auditor.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./03-auditor.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./03-auditor.sh
 /etc        16K     755     root
 /var/log    4.0K    755     root
 /usr/bin    36K     755     root
@@ -60,7 +60,7 @@ divyanshushekhar05-lab@ubuntu-server:~/Python$ ./03-auditor.sh
 
 ## 4. Log File Analyzer (`04-logs.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./04-logs.sh /var/log/syslog error
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./04-logs.sh /var/log/syslog error
 ================================================================================
                    Python AUDIT - LOG FILE ANALYZER                 
 ================================================================================
@@ -77,7 +77,7 @@ Mar 17 14:25:05 ubuntu-server CRON[3148]: (root) ERROR (cron job failed)
 
 ## 5. Open Source Manifesto Generator (`05-manifesto.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./05-manifesto.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./05-manifesto.sh
 ================================================================================
                    Python AUDIT - MANIFESTO GENERATOR                 
 ================================================================================

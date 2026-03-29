@@ -12,8 +12,8 @@ divyanshushekhar05-lab@ubuntu-server:~/Python$ ./01-identify.sh
 ================================================================================
 Linux Distribution: Ubuntu 22.04.3 LTS
 Kernel Version:     5.15.0-89-generic
-Current User:       divyanshushekhar05-lab
-Home Directory:     /home/divyanshushekhar05-lab
+Current User:       divyanshushekhar2502
+Home Directory:     /home/divyanshushekhar2502
 System Uptime:      up 2 hours, 45 minutes
 Current Date/Time:  Sun Mar 29 14:30:00 UTC 2026
 --------------------------------------------------------------------------------
@@ -81,10 +81,10 @@ divyanshushekhar05-lab@ubuntu-server:~/Python$ ./05-manifesto.sh
 ================================================================================
                    Python AUDIT - MANIFESTO GENERATOR                 
 ================================================================================
-What is your name? divyanshushekhar05-lab
+What is your name? divyanshushekhar2502
 What is your favorite programming language? Python
 What is your favorite open-source project? Linux
 
-As divyanshushekhar05-lab, I believe in the power of open-source software and the freedom it provides to study, change, and distribute. My favorite programming language is Python, and I am inspired by the Linux project. I will continue to contribute to the open-source community and promote the values of collaboration and sharing.
+As divyanshushekhar2502, I believe in the power of open-source software and the freedom it provides to study, change, and distribute. My favorite programming language is Python, and I am inspired by the Linux project. I will continue to contribute to the open-source community and promote the values of collaboration and sharing.
 ================================================================================
 ```

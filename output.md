@@ -4,9 +4,9 @@ This document contains simulated terminal outputs for the 5 audit scripts.
 
 ---
 
-## 1. System Identity Report (`01-identify.sh`)
+## 1. System Identity Report (`script1_system_identity.sh`)
 ```bash
-divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./01-identify.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./script1_system_identity.sh
 ================================================================================
                    Python AUDIT - SYSTEM IDENTITY                    
 ================================================================================
@@ -23,9 +23,9 @@ Message: This system runs on Open Source software, providing freedom to study, c
 
 ---
 
-## 2. FOSS Package Inspector (`02-packages.sh`)
+## 2. FOSS Package Inspector (`script2_package_inspector.sh`)
 ```bash
-divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./02-packages.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./script2_package_inspector.sh
 ================================================================================
                    Python AUDIT - PACKAGE INSPECTOR                 
 ================================================================================
@@ -42,9 +42,9 @@ FOSS Philosophy Notes:
 
 ---
 
-## 3. Disk and Permission Auditor (`03-auditor.sh`)
+## 3. Disk and Permission Auditor (`script3_disk_auditor.sh`)
 ```bash
-divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./03-auditor.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./script3_disk_auditor.sh
 /etc        16K     755     root
 /var/log    4.0K    755     root
 /usr/bin    36K     755     root
@@ -58,26 +58,26 @@ divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./03-auditor.sh
 
 ---
 
-## 4. Log File Analyzer (`04-logs.sh`)
+## 4. Log File Analyzer (`script4_log_analyzer.sh`)
 ```bash
-divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./04-logs.sh /var/log/syslog error
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./script4_log_analyzer.sh /var/log/syslog error
 ================================================================================
                    Python AUDIT - LOG FILE ANALYZER                 
 ================================================================================
 Found 10 occurrences of 'error' in /var/log/syslog
-Mar 17 14:25:01 ubuntu-server CRON[3144]: (root) ERROR (cron job failed)
-Mar 17 14:25:02 ubuntu-server CRON[3145]: (root) ERROR (cron job failed)
-Mar 17 14:25:03 ubuntu-server CRON[3146]: (root) ERROR (cron job failed)
-Mar 17 14:25:04 ubuntu-server CRON[3147]: (root) ERROR (cron job failed)
-Mar 17 14:25:05 ubuntu-server CRON[3148]: (root) ERROR (cron job failed)
+Mar 29 14:25:01 ubuntu-server CRON[3144]: (root) ERROR (cron job failed)
+Mar 29 14:25:02 ubuntu-server CRON[3145]: (root) ERROR (cron job failed)
+Mar 29 14:25:03 ubuntu-server CRON[3146]: (root) ERROR (cron job failed)
+Mar 29 14:25:04 ubuntu-server CRON[3147]: (root) ERROR (cron job failed)
+Mar 29 14:25:05 ubuntu-server CRON[3148]: (root) ERROR (cron job failed)
 ================================================================================
 ```
 
 ---
 
-## 5. Open Source Manifesto Generator (`05-manifesto.sh`)
+## 5. Open Source Manifesto Generator (`script5_manifesto_generator.sh`)
 ```bash
-divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./05-manifesto.sh
+divyanshushekhar2502-lab@ubuntu-server:~/Python$ ./script5_manifesto_generator.sh
 ================================================================================
                    Python AUDIT - MANIFESTO GENERATOR                 
 ================================================================================

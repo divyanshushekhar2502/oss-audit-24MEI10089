@@ -46,11 +46,11 @@ This repository contains a suite of 5 Bash shell scripts designed for a universi
 ## Instructions for Use
 ```bash
 chmod +x *.sh
-./01-identify.sh
-./02-packages.sh
-./03-auditor.sh
-./04-logs.sh /var/log/syslog error
-./05-manifesto.sh
+.script1_system_identity.sh
+.script2_package_inspector.sh
+.script3_disk_auditor.sh
+.script4_log_analyzer.sh /var/log/syslog error
+.script5_manifesto_generator.sh
 ```
 
 ## Learning Outcome

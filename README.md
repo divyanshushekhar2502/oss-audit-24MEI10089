@@ -52,7 +52,7 @@ chmod +x *.sh
 - User input with read
 - File writing using >
 - 
-- ```
+  ```
 ## Learning Outcome
 
 Through this project I learned:

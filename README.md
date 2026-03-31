@@ -1,6 +1,6 @@
 # The Open Source Audit: Python
 
-**Student Name:** Divyanshu Shekhar <br>
+**Student Name:** divyanshushekhar2502 <br>
 **Registration Number:** 24MEI10089 <br>
 **Project Focus:** Python (FOSS Audit)
 
@@ -10,53 +10,34 @@ This repository contains a suite of 5 Bash shell scripts designed for a universi
 
 ## Script Descriptions
 
-### 1. script1_system_identity.sh
+### 1. 01-identify.sh
 
 **Goal:** System Identity Report. Provides a comprehensive overview of the host system, including the Linux distribution, kernel version, current user, home directory, system uptime, and an open-source license message.
 
-### 2. script2_package_inspector.sh
+### 2. 02-packages.sh
 
 **Goal:** FOSS Package Inspector. Detects if Python is installed, identifies the system's package manager, and provides philosophy notes about common FOSS tools.
 
-### 3. script3_disk_auditor.sh
+### 3. 03-auditor.sh
 
 **Goal:** Disk and Permission Auditor. Loops through critical system and Python-specific directories, reporting their size, ownership, and file permissions.
 
-### 4. script4_log_analyzer.sh
+### 4. 04-logs.sh
 
 **Goal:** Log File Analyzer. Analyzes Python log files by searching for specified keywords, counting occurrences, and displaying the last 5 matching entries.
 
-### 5. script5_manifesto_generator.sh
+### 5. 05-manifesto.sh
 
 **Goal:** Open Source Manifesto Generator. An interactive script that crafts a personalized open-source manifesto based on user input and saves it to a text file.
 
 ---
-## Concepts Used
 
-- Variables
-- Command substitution using $()
-- if-else statements
-- case statements
-- for loops
-- while-read loops
-- User input with read
-- File writing using >
- ```
-```
 ## Instructions for Use
 ```bash
 chmod +x *.sh
-.script1_system_identity.sh
-.script2_package_inspector.sh
-.script3_disk_auditor.sh
-.script4_log_analyzer.sh /var/log/syslog error
-.script5_manifesto_generator.sh
+./01-identify.sh
+./02-packages.sh
+./03-auditor.sh
+./04-logs.sh /var/log/syslog error
+./05-manifesto.sh
 ```
-
-## Learning Outcome
-
-Through this project I learned:
-- How Linux stores software and configuration files
-- How Bash scripts can automate repetitive tasks
-- How open-source software such as Python is managed on Linux
-- The importance of free software licenses and community contribution

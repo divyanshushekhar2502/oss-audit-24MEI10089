@@ -6,14 +6,14 @@ This document contains simulated terminal outputs for the 5 audit scripts.
 
 ## 1. System Identity Report (`01-identify.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./01-identify.sh
+divyanshushekhar2502@ubuntu-server:~/Python$ ./01-identify.sh
 ================================================================================
                    Python AUDIT - SYSTEM IDENTITY                    
 ================================================================================
 Linux Distribution: Ubuntu 22.04.3 LTS
 Kernel Version:     5.15.0-89-generic
-Current User:       divyanshushekhar05-lab
-Home Directory:     /home/divyanshushekhar05-lab
+Current User:       divyanshushekhar2502
+Home Directory:     /home/divyanshushekhar2502
 System Uptime:      up 2 hours, 45 minutes
 Current Date/Time:  Mon Mar 30 2026 20:10:13 GMT+0000 (Coordinated Universal Time)
 --------------------------------------------------------------------------------
@@ -25,7 +25,7 @@ Message: This system runs on Open Source software, providing freedom to study, c
 
 ## 2. FOSS Package Inspector (`02-packages.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./02-packages.sh
+divyanshushekhar2502@ubuntu-server:~/Python$ ./02-packages.sh
 ================================================================================
                    Python AUDIT - PACKAGE INSPECTOR                 
 ================================================================================
@@ -44,7 +44,7 @@ FOSS Philosophy Notes:
 
 ## 3. Disk and Permission Auditor (`03-auditor.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./03-auditor.sh
+divyanshushekhar2502@ubuntu-server:~/Python$ ./03-auditor.sh
 Directory                       Size         Permissions  Owner
 ----------------------------------------------------------------------
 /etc                            12M          drwxr-xr-x   root
@@ -57,7 +57,7 @@ Directory                       Size         Permissions  Owner
 
 ## 4. Log File Analyzer (`04-logs.sh`)
 ```bash
-divyanshushekhar05-lab:~/Python$ ./04-logs.sh /var/log/syslog error
+divyanshushekhar2502:~/Python$ ./04-logs.sh /var/log/syslog error
 Keyword 'error' found 7 time(s) in /var/log/syslog.
 --- Last 5 matching entries ---
 Mar 30 20:05:12 ubuntu-server python3[1234]: error: failed to open config file
@@ -71,7 +71,7 @@ Mar 30 20:11:22 ubuntu-server python3[1322]: error: cannot import name 'abc'
 
 ## 5. Open Source Manifesto Generator (`05-manifesto.sh`)
 ```bash
-divyanshushekhar05-lab@ubuntu-server:~/Python$ ./05-manifesto.sh
+divyanshushekhar2502@ubuntu-server:~/Python$ ./05-manifesto.sh
 1) What is your favorite Python feature (e.g., list comprehensions, async/await)? List comprehensions
 2) How do you contribute to the Python community (e.g., code, docs, mentorship)? I write documentation and review pull requests.
 3) In one sentence, describe your vision for the future of Open Source Python: A world where Python powers every domain while remaining fully community‑governed.

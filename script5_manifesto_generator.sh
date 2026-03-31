@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: divyanshushekhar05-lab (24MEI10089)
+# Author: divyanshushekhar2505 (24MEI10089)
 # ------------------------------------------------------------
 # Script: 05-manifesto.sh
 # Purpose: Interactively collect user input and generate a personalized

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: divyanshushekhar05-lab (24MEI10089)
+# Author: divyanshushekhar2502  (24MEI10089)
 # ------------------------------------------------------------
 # Script: 01-identify.sh
 # Purpose: Extract basic system information and display a

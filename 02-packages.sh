@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: divyanshushekhar05-lab (24MEI10089)
+# Author: divyanshushekhar2502 (24MEI10089)
 # ------------------------------------------------------------
 # Script: 02-packages.sh
 # Purpose: Detect the package manager, verify Python installation,

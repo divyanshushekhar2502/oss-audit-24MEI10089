@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: divyanshushekhar05-lab (24MEI10089)
+# Author: divyanshushekhar2502  (24MEI10089)
 # ------------------------------------------------------------
 # Script: 04-logs.sh
 # Purpose: Analyze a given log file for a specific keyword. The script

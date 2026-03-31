@@ -1,6 +1,6 @@
 # The Open Source Audit: Python
 
-**Student Name:** divyanshushekhar2502 <br>
+**Student Name:** Divyanshu Shekhar <br>
 **Registration Number:** 24MEI10089 <br>
 **Project Focus:** Python (FOSS Audit)
 
